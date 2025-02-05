@@ -35,7 +35,7 @@ def play_sound_alert():
             play_obj = wave_obj.play()
           
         except Exception as e:
-            print("Hiba a hang lejátszása közben:", e)
+            print("Hiba a hang lejátszása közben ellenőrizze a fájl PATH-et:", e)
 
 
 def draw_detections(frame, detections, stats, fps):
