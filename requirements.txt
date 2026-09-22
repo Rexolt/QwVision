@@ -1,0 +1,4 @@
+numpy
+# 4.x-szel tesztelve
+opencv-python<5
+simpleaudio
